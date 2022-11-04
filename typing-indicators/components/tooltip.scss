@@ -1,0 +1,17 @@
+.typing-users-tooltip {
+    text-align: center;
+
+    .typing-user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+
+        img {
+            width: 16px;
+            height: 16px;
+            border-radius: 50px;
+            margin-right: 3px;
+        }
+    }
+}

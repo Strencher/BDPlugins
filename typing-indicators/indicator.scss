@@ -1,0 +1,14 @@
+.typingIndicator {
+    transform: scale(0.7);
+    left: -6.6px;
+    position: absolute;
+    bottom: 34px;
+    pointer-events: none;
+    background: var(--background-secondary);
+    width: 33px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}

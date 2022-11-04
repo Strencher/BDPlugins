@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "esNext",
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "allowSyntheticDefaultImports": true
+    }
+}

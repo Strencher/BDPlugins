@@ -1,0 +1,10 @@
+.cft-button {
+    color: var(--interactive-normal);
+    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
+    width: 16px;
+    height: 16px;
+}
+
+.cft-button.cft-collapsed {
+    transform: rotate(90deg);
+}

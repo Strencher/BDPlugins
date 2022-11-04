@@ -1,0 +1,7 @@
+{
+	"devDependencies": {
+		"@react-spring/types": "^9.5.5",
+		"@types/betterdiscord": "github:zerthox/betterdiscord-types",
+		"@types/react": "^18.0.21"
+	}
+}
