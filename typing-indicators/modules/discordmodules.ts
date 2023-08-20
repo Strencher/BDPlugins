@@ -17,7 +17,7 @@ export const [
     UserStore,
     i18n
 ] = Webpack.getBulk(
-    e => e?.Type?.CHASING_DOTS,
+    {searchExports: true, filter: e => e?.Type?.CHASING_DOTS},
     Filters.byProps("Controller", "animated"),
     byStore("GuildChannelStore"),
     byStore("TypingStore"),
